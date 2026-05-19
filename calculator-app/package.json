@@ -1,0 +1,40 @@
+{
+    "name": "scientific-calculator",
+    "version": "1.0.0",
+    "description": "基于 KaTeX 的数学公式渲染的科学计算器",
+    "main": "main.js",
+    "scripts": {
+        "dev": "uni",
+        "build": "uni build",
+        "build:h5": "uni build:h5",
+        "build:app-plus": "uni build:app-plus"
+    },
+    "keywords": [
+        "calculator",
+        "katex",
+        "uni-app",
+        "hbuilderx"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@dcloudio/uni-app": "3.0.0-alpha-4020420240930001",
+        "@dcloudio/uni-app-plus": "3.0.0-alpha-4020420240930001",
+        "@dcloudio/uni-components": "3.0.0-alpha-4020420240930001",
+        "@dcloudio/uni-h5": "3.0.0-alpha-4020420240930001",
+        "@dcloudio/uni-mp-weixin": "3.0.0-alpha-4020420240930001",
+        "katex": "^0.16.10",
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "@dcloudio/types": "^3.4.8",
+        "@dcloudio/uni-cli-shared": "3.0.0-alpha-4020420240930001",
+        "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4020420240930001",
+        "sass": "^1.75.0",
+        "vite": "5.2.8"
+    },
+    "browserslist": [
+        "Android >= 4.4",
+        "ios >= 9"
+    ]
+}
